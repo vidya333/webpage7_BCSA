@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+a:hover{
+    color: blue;
+}
+.fs-13{
+    font-size: 13px;
+}
+:root{
+    --darkpink:#dd127b;
+}
+.bg-pink{background: #dd127b !important;}
+.text-pink{color: #dd127b ;}
+/* Header starts */
+header{
+    background: var(--darkpink);
+}
+/* Header ends */
+/* Navbar starts */
+.navbar{
+    position: sticky;
+    top:0px;z-index: 99;
+}
+.logo1{
+    width: 287px;
+    transition: 0.3s linear;
+}
+.logo1:hover{
+    transform: scale(1.05);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.nav-item a{transition: 0.2s;}
+.nav-item a:hover{
+    color: #dd127b !important;
+    transform: scale(1.03);
+}
+.navbar-toggler:focus{
+    box-shadow: 0px 0px 0px 0px!important;
+}
+/* Navbar ends */
+/* Banner Starts */
+.carousel-indicators [data-bs-target] {
+    width: 16px;height: 16px;
+    border-radius: 50%;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+.carousel-caption{
+    font-family: 'Solway', serif;
+    left: 10%;top:39%;
+}
+.carousel-caption button{
+    border-radius: 21px;
+    transition: 0.3s ease;
+}
+.carousel-caption button:hover{
+    transform: scale(1.02);
+    color: #dd127b !important;
+    font-size: 17px;
+}
+/* Banner ends */
