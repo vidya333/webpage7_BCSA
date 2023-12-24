@@ -21,7 +21,7 @@ a:hover{
 .bg-pink{background: #dd127b !important;}
 .text-pink{color: #dd127b ;}
 /* Header starts */
-header{
+.tophead{
     background: var(--darkpink);
 }
 /* Header ends */
@@ -70,3 +70,18 @@ header{
     font-size: 17px;
 }
 /* Banner ends */
+/* Marquee starts */
+marquee{
+    box-shadow: 0px 0px 3px 1px gray;
+}
+/* Marquee ends */
+/* About starts */
+.notification{
+    box-shadow: 0px 0px 29px 6px #d8d7d7;
+    text-align: center;
+    border-radius: 10px;   
+}
+.about-text{
+    text-align: justify;
+}
+/* About ends */
